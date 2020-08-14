@@ -1,0 +1,24 @@
+body {
+  font:400 14px/1.25 "DM Sans";
+  letter-spacing: -0.025rem;
+  color: #01171F;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.centered {
+  color: #596686;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.125;
+  text-align: center;
+  width: 70%;
+  margin: 200px auto 0;
+}
+
+.centered img {
+  width: 350px;
+}
+
