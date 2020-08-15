@@ -178,12 +178,74 @@ header .button.cta {
   animation: 5s bounce linear infinite alternate;
 }
 
+.illustration-overview {
+  justify-content: space-evenly;
+}
+
+
+.illustration-overview .suggest {
+  display: block;
+  margin-top: 10px;
+  min-height: 220px;
+  width: 225px;
+  background: url(../images/suggest-person.png) no-repeat left center;
+  background-size: contain;
+}
+
+.illustration-overview:nth-child(2) {
+  height: 225px;
+}
+
+.illustration.suggest, .illustration.sprite, .illustration.ranking  {
+  position: relative;
+}
+
+.illustration.suggest .book {
+  position: absolute;
+  right: 10px;
+  top: -30px;
+  animation: 3s bounce linear infinite alternate;
+ 
+}
+
+.illustration.suggest .blob-orange {
+  position: absolute;
+  z-index: -1;
+  right: -20px;
+  top: -40px;
+}
+
+.illustration.voting .blob-purple {
+  position: absolute;
+  z-index: -1;
+  left: -60px;
+  top: -10px;
+  opacity: .7
+}
+
+.illustration.ranking .blob-pink {
+  position: absolute;
+  z-index: -1;
+  right: 40px;
+  bottom: 30px;
+}
+
 .illustration-overview .voting {
-  margin-top: 50px;
+  margin: 25px 0 0 75px;
   width: 250px;
+  height: 225px;
   background: url(../images/voting-sprite.png) no-repeat left center;
   animation: play 6s steps(8) infinite;
   background-size: 2000px;
+  position: relative;
+}
+
+.illustration-overview .ranking {
+  margin: -15px 50px 0 0;
+  width: 225px;
+  height: 225px;
+  background: url(../images/rank-person.png) no-repeat left center;
+  background-size: contain;
 }
 
 .footer {
