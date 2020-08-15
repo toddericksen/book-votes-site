@@ -273,6 +273,16 @@ header .button.cta {
   width: 500px;
 }
 
+.form-success {
+  width: 100%;
+  text-align: center;
+  padding: 2.25rem 0 1.5rem;
+  background: #28C29B;
+  color: #fff;
+  font-weight: 900;
+  display: none;
+}
+
 input {
   font-family: "DM Sans";
 }
