@@ -269,7 +269,8 @@ header .button.cta {
 } 
 
 .form {
-  margin: 4rem;
+  margin: 4rem auto;
+  width: 500px;
 }
 
 input {
