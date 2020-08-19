@@ -412,7 +412,7 @@ input[type="submit"] {
   -webkit-animation-duration: 5s;
 }
 
-@-webkit-keyframes x-spin-first {
+/*@-webkit-keyframes x-spin-first {
   0% {
     -webkit-transform: rotateX(57deg);
   }
@@ -421,6 +421,18 @@ input[type="submit"] {
   }
   100% {
     -webkit-transform: rotateX(417deg);
+  }
+}*/
+
+@-webkit-keyframes x-spin-first {
+  0% {
+    -webkit-transform: rotateX(0deg);
+  }
+  60% {
+    -webkit-transform: rotateX(360deg);
+  }
+  100% {
+    -webkit-transform: rotateX(360deg);
   }
 }
 
@@ -438,13 +450,13 @@ input[type="submit"] {
 
 @-webkit-keyframes x-spin-third {
   0% {
-    -webkit-transform: rotateX(-95deg);
+    -webkit-transform: rotateX(0deg);
   }
   60% {
-    -webkit-transform: rotateX(265deg);
+    -webkit-transform: rotateX(360deg);
   }
   100% {
-    -webkit-transform: rotateX(265deg);
+    -webkit-transform: rotateX(360deg);
   }
 }
 
