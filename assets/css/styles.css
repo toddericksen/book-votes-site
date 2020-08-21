@@ -786,8 +786,7 @@ button {
 }
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 864px) {
   .content-container {
     width: calc(100% - 4rem);
     padding: 0 2rem;
@@ -799,7 +798,54 @@ button {
   .text {
     width: 100%;
   }
-  #stage, #rotate {
-    width: 100%;
+  .footer {
+    padding: 2rem;
+    overflow: hidden;
+    width: calc(100% - 1rem);
   }
+  .slim p {
+    width: 80%;
+    min-height: 8rem;
+    margin: 3rem auto;
+  }
+  .slim p strong {
+    font-size: 2rem;
+  }
+  .form {
+    width: 100%;
+    max-width: 400px !important;
+    margin: 0 auto;
+  }
+  .illustration.drag-n-drop {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .illustration-overview {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .illustration.suggest, .illustration.ranking {
+    display: none;
+  }
+  
+
+  .hbspt-form {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .hs-form.stacked.hs-custom-style.hs-form-private {
+    max-width: 400px !important;
+  }
+  .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
+    max-width: 400px !important;
+  }
+  .hbspt-form .field label {
+    display: none !important;
+  }
+  
 }
