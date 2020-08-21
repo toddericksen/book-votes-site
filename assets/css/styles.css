@@ -703,15 +703,7 @@ button {
   font-size: 1em;
 }
 
-@media screen and (max-width: 60em) {
 
-  .content {
-    width: 100%;
-  }
-  .content--related {
-    font-size: 0.9em;
-  }
-}
 
 
 
@@ -796,8 +788,20 @@ button {
 
 
 @media screen and (max-width: 768px) {
+  .content-container {
+    width: calc(100% - 4rem);
+    padding: 0 2rem;
+  }
+
+  .content {
+    display: block;
+  }
   .text {
     width: 100%;
     margin-top: 3rem;
   }
+  #stage {
+
+  }
 }
+
