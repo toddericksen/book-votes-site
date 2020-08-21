@@ -523,6 +523,7 @@ button {
 
 .voting-button {
   border: none;
+  outline: none;
   background: none;
   position: relative;
   display: inline-block;
