@@ -791,6 +791,7 @@ button {
   .content-container {
     width: calc(100% - 4rem);
     padding: 0 2rem;
+    overflow: hidden;
   }
 
   .content {
@@ -799,7 +800,7 @@ button {
   .text {
     width: 100%;
   }
-  #stage {
-   
+  #stage, #rotate {
+    width: 100%;
   }
 }
