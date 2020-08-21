@@ -1,3 +1,4 @@
+
 html {
   font: 400 10px/1.66 "Martel", "Merriweather", "Baskerville", "Serif";
   letter-spacing: -0.025rem;
@@ -744,5 +745,58 @@ button {
   opacity: 0;
 }
 
+.illustration.drag-n-drop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  align-content: center; 
+  width:40%;
+}
+
+.draggable-book {
+  height:190px;
+  width: 125px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25),
+              0px 12px 14px rgba(0, 0, 0, 0.25);
+  cursor: grab;
+  border: 5px solid #fff;
+}
+.draggable-book img {
+  width: 125px;
+}
+
+.drop-targets div {
+  font: 2rem "DM Sans";
+  color: rgba(0,0,0,.4);
+  line-height: 10rem;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 5px;
+  height:10rem;
+  width: 7rem;
+  background: #F4F4F4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.drop-glow {
+  background: yellow;
+}
+
+.dragging {
+  transition: all .2s ease-in-out;
+  opacity: .1;
+}
+.shrink {
+  transform: scale(.8);
+}
 
 
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
