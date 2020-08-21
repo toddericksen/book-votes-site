@@ -844,8 +844,14 @@ button {
   .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
     max-width: 400px !important;
   }
-  .hbspt-form .field label {
-    display: none !important;
+  .hbspt-form .hs-form .field label span {
+    color: #fff !important;
   }
   
+}
+
+@media screen and (max-width: 460px) {
+
+
+
 }
