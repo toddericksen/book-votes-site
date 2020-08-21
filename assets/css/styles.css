@@ -851,7 +851,18 @@ button {
 }
 
 @media screen and (max-width: 460px) {
+  header, .content  {
+    text-align: center;
+  }
+  header a.button.cta{
+    display: block;
+    position: static;
+    min-width: 200px;
+    max-width: 400px;
+    margin: 2rem auto 0; 
+  }
+}
 
-
-
+.book-voting {
+  margin-top: 2em;
 }
