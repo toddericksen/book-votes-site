@@ -26,6 +26,8 @@ h2 {
   font-family: "DM Sans", "Avenir", "Gill Sans", "Helvetica","Arial", sans-serif;
   letter-spacing: -0.2rem;
   margin-bottom: 0;
+  line-height: 1;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -702,8 +704,6 @@ button {
   padding: 0.5em;
   font-size: 1em;
 }
-
-
 
 
 
